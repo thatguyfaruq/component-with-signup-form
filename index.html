@@ -17,24 +17,35 @@
       <!-- main section -->
        <section class="row justify-content-between">
         <!-- section-1 -->
-        <section class="col-md-5">
+        <section id="section-1" class="col-md-5 text-white p-5">
           <h2>Learn to code by watching others</h2>
           <p>
             See how experienced developers solve problems in rea-time. Watching scripted
-            tutorials is great, but understanding how developers think is invaluable
+            tutorials is great, but understanding how developers think is invaluable.
           </p>
         </section>
         <!-- section-2 -->
         <section class="col-md-6">
           <!-- div for btn -->
-          <div>
-            <button>Try it free 7 days<span>then $20/mo. thereafter</span></button>
+          <div class="p-3 text-center">
+            <button id="button-1" class="text-white"> <span class="fw-bold">Try it free 7 days</span> then $20/mo. thereafter</button>
           </div>
-          <!-- form -->
-          <form>
-            <label for="">first name</label>
-            <input type="text">
-          </form>
+          <div class="bg-white rounded p-3">
+            <!-- form -->
+            <form class="container d-flex flex-column gap-3">
+              <!-- <label for="">first name</label> -->
+              <input type="text" placeholder="First Name">
+              <!-- <label for="Last Name">Last Name</label> -->
+              <input type="text" placeholder="Last Name">
+              <!-- <label for="Email Address">email address</label> -->
+              <input type="email" name="" placeholder="Email Address">
+              <input type="password" name="" id="" placeholder="Password">
+              <button class="bg-success rounded text-white">CLAIM YOUR FREE TRIAL</button>
+            </form>
+            <div>
+              <p class="text-center" >By clicking the button, you are agreeing to our <span class="text-danger fw-bold">Terms and Services</span></pc>
+            </div>
+          </div>
         </section>
        </section>
     </main>

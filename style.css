@@ -9,7 +9,7 @@
   --ff-poppings: "Poppins", sans-serif;
 }
 body{
-  background-image: url(/assets/bg-intro-desktop.png);
+  background-image: url(assets/bg-intro-desktop.png);
   background-color: var(--red);
   background-repeat: no-repeat;
   background-size: cover;

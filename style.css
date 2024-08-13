@@ -22,16 +22,35 @@ html, body{
   align-items: center;
   min-height: 100%;
 }
+
+#section-1{
+ color: var();
+}
 #section-1 h2{
   font-weight: 700;
+  font-size: 48px;
+  /* padding-top: 3rem; */
 }
 #section-1 p{
   font-weight: 400;
+  font-size: 14px;
+  /* padding-top: 4rem; */
 }
 #button-1{
 background-color: var(--blue);
-color: ;
 }
+#button-2{
+  background-color: var(--green);
+}
+
 .span{
   font-weight: 400;
+}
+.text-red{
+  color: var(--red);
+
+}
+#section-2 p{
+  font-size: 10px;
+  color: var(--grayish-blue);
 }

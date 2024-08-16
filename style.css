@@ -14,7 +14,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--ff-poppings);
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 html, body{
   display: flex;
@@ -26,21 +26,23 @@ html, body{
 #section-1{
  color: var();
 }
-#section-1 h2{
+h2{
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   /* padding-top: 3rem; */
 }
 #section-1 p{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   /* padding-top: 4rem; */
 }
 #button-1{
 background-color: var(--blue);
+height: 3rem;
 }
 #button-2{
   background-color: var(--green);
+  height: 3rem;
 }
 
 .span{
@@ -51,6 +53,33 @@ background-color: var(--blue);
 
 }
 #section-2 p{
-  font-size: 10px;
+  font-size: 11px;
   color: var(--grayish-blue);
+}
+input{
+  height: 3rem;
+}
+@media (max-width: 475px){
+#section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+h2{
+  font-size: 1.8rem;
+}
+#button-1{
+  height: 4rem;
+  margin-top: 2rem;
+}
+main{
+  margin: 4rem;
+}
+body{
+  background-image: url(assets/bg-intro-mobile.png);
+  background-color: var(--red);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
